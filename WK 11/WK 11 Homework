@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+            homework wk 11
+        </title>
+    <script>
+        var movement;
+        // this function is called only once
+        function setup() {
+            createCanvas(800, 600);
+            // change the random and the plus 1 to see what happens
+            movement = Math.floor(Math.random() * 10) + 1;
+            // print out the movement variable in the console to see what it is
+        }
+        /* this functions is called continously while the sketch is open in the browser
+        */
+       function draw() {
+        background(redColor, greenColor, blueColor);
+        fill(255);
+        cricle(x, y, diameter);
+        fill(redColor, greenColor, blueColor);
+        circle(x, y, 25);
+        if (x >=800 x <= 0) {
+            movement *= -1;
+        }
+        x += movement;
+       }
+
+       </script>
+
+    </head>
+
+    </html>
+
+    
