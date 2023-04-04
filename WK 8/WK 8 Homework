@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>my first page</title>
+        <style>
+            li{
+                background-color: rgb(239, 24, 24);
+            }
+        </style>
+
+    </head>
+    
+    <body>
+        <li>
+            <li>horsebackriding</li>
+            <li>skiing</li>
+            <li>backpacking</li>
+            <li>fishing</li>
+        </li>
+        
+
+        <ul>
+            <style>
+                ul{
+                    background-color: blueviolet;
+                }    
+            </style>
+            
+            <ul>mexican moose http://ordermexicanmoosemissoulafoodtruck.com/</ul>
+            <ul>paradise falls https://paradisefallsmissoula.com/</ul>
+            <ul>old post https://www.oldpostmissoula.com/</ul>
+        </ul>
+
+        <ol>
+
+            <style>
+                ol{
+                    background-color: rgb(151, 225, 142);
+                }    
+            </style>
+            <ol>aspenglow equestrians https://www.aspenglowequestrians.net</ol>
+            <ol>flying star stables https://www.flyingstarsaddlery.com</ol>
+            <ol>drop cut manufacturing www.dcfmfg.com</ol>
+        </ol>
+        
+        <a href="Homework_TERRY_Page2.html">page2</a>
+       
+        <a href="Homework_TERRY_Page3.html">page3</a>
+
+        </body>
+
+        </html>
+
+        
+        <html>
+            <title>my first page</title>
+            <style>
+                p {
+                    background-image: url(IMG_4344.JPG) ;
+                }
+            </style>
+            
+            <body>
+                <text>this is my short story. today is a beautiful day and i think i will venture outside. spring is in the air.</text>
+                    
+                    <img src="IMG_4344.JPG" width="500" height="600" />
+        
+                </body>
+        
+                </html>
+
+
+       
+<html>
+    <title>my first page</title>
+    <head>
+        <script> 
+        // this function checks the textboxes to see if there is anything in them.  if nothing appears
+        // turns the textbox red, gives it focus and points out a required message.
+        function checkboxes()
+        {
+            var firstName = document.getElementById("fName").value;
+            window.alert(firstName)
+            if (firstName == "")
+            {
+                document.getElementById("fName").style.backgroundColor = "red";
+                document.getElementByIt("fName").focus()
+            }
+            //need to check for the other textbox ans also remove the red and the required message until
+            //something is filled in.
+        }
+            </script>
+           
+           <script>
+                  // this function checks the textboxes to see if there is anything in them.  if nothing appears
+        // turns the textbox blue, gives it focus and points out a required message.
+        function checkboxes()
+        {
+            var laststName = document.getElementById("lName").value;
+            window.alert(lastName)
+            if (lastName == "")
+            {
+                document.getElementById("lName").style.backgroundColor = "blue";
+                document.getElementByIt("lName").focus()
+            }
+            //need to check for the other textbox ans also remove the blue and the required message until
+            //something is filled in.
+        }
+
+            </script>
+    </head>
+    <body>
+        <form action="nextpage.html" type="POST">
+            <!--contact us-->
+            first name: <input type="text" id="fName"><br>
+            last name: <input type="text" id="lname"><br>
+            email: <input type="text"><br>
+            <button type="terms of agreement" type="submit">submit</button>
+        <li>thanks for the help</li>
+         </body>
+
+        </html>         

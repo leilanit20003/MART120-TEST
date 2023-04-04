@@ -1,0 +1,58 @@
+<html>
+    <title>for Loops</title>
+
+
+    <head>
+        <script>
+            var actualAnswer;
+            var number1;
+            var number2;
+
+            function printQuestion() {
+                number1 = Math.floor(Math.random() *10);
+                number2 = Math.floor(Math.random() *10);
+                actualAnswer = number1 + number2;
+                document.getElementById("theQuestion").innerHTML = "What is" + number1 + "+"
+            }
+
+            function checkAnswer() {
+                var answer = document.getElementById("txtAnswer").value;
+                if (answer == actualAnswer) {
+                    document.getElememtById("finalResult").innerHTML = "Good job!";
+                    printQuestion();
+
+                } else {
+                    document.getElementById("finalResults").innerHTML = "Try Again!";
+                }
+            }
+
+            function runGame() {
+                for (var i = 1; i <6; i ++) {
+                    document.getElementById("message").innerHTML += "<h" = i = ">welcome"
+                }
+                printQuestion();
+            }
+            runGame();
+            </script>
+            </head>
+
+            <body onLoad="runGame();"
+
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <div id="mesage"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Your answer</td>
+                    <td><input type="text" id="txtAnswer"></td>
+                </tr>
+                <tr>
+                    <td colspan"2"><button id="btnSubmit" onClick="checkAnswer();">Submit</button>
+                    </tr>
+                </table>
+                <div id="finalResult"></div>
+            </body>
+
+            <html>
