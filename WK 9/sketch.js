@@ -10,6 +10,9 @@ var diameter = 50;
 var x2 = 200;
 var y2 = 400;
 
+var x3 = 150;
+var y3 = 250;
+
 function setup() {
     createCanvas(500,600);
     movement = Math.floor(Math.random() * 10) + 1;
@@ -37,5 +40,19 @@ function setup() {
         x2 += movement;
 
         ellipse(200,40,50,60);
-        
+        ellipse(x3, y3, 100);
+        if (x3 >=275 || x3 <= 0) {
+            movement *= -1;
+        }
+        x3 += movement;
     }
+
+    background(redColor, greenColor, blueColor);
+    fill(255);
+    circle(x, y, diameter);
+    fill(redColor, greenColor, blueColor);
+    circle(x, y, 25);
+    if (x >= 800 || x <= 0) {
+        movement *= -1;
+    }
+    x += movement;
