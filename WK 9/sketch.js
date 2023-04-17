@@ -32,27 +32,4 @@ function setup() {
         }
         x += movement;
 
-        square(140,130,50);
-        square(x2, y2, 50);
-        if (x2 >= 500 || x2 <= 0) {
-            movement *= -1;
-        }
-        x2 += movement;
-
-        ellipse(200,40,50,60);
-        ellipse(x3, y3, 100);
-        if (x3 >=275 || x3 <= 0) {
-            movement *= -1;
-        }
-        x3 += movement;
     }
-
-    background(redColor, greenColor, blueColor);
-    fill(255);
-    circle(x, y, diameter);
-    fill(redColor, greenColor, blueColor);
-    circle(x, y, 25);
-    if (x >= 800 || x <= 0) {
-        movement *= -1;
-    }
-    x += movement;
