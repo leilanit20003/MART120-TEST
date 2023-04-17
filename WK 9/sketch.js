@@ -31,5 +31,26 @@ function setup() {
             movement *= -1;
         }
         x += movement;
+        
+        function draw() {
+            background(220);
+            square(30,40,50);
+        }
+
+        function draw() {
+            background(220);
+            triangle(30, 75, 58, 20, 86, 75);
+        }
+
+        function draw() {
+            background(220);
+            line(30, 20, 85, 75);
+        }
+
+
+        function text()
+            textSize(32);
+            text('Michelle Lani Terry', 10, 30);
+        
 
     }
