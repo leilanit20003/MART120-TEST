@@ -1,22 +1,9 @@
-<html>
+body{
 
-<head>
+   background-image: url('IMG_4344.JPG') ;
+}
 
-   <title>id Example</title>
-   <link rel="stylessheet" type="text/css"
-   href="mainstyles.css">
-   </head>
+#bio{
 
-   <body>
-   <span id="specificColor">New Color<?span>
-   <br>
-   <span>Same Color</span>
-   <br>
-   <a href="https://www.amazon.com"
-   id="specificlink" target="_new">Amazon</a>
-   </body>
-
-   <a href="mainstyle.css" >page 4 </a>
-
-   </html>
-
+   color:aqua;
+}
